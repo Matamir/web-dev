@@ -4,132 +4,378 @@
   <meta charset="UTF-8">
   <title>Explore</title>
 
-
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
   <link href="explore.css" rel="stylesheet"/>
 </head>
-<body class = "wd-bg-color-black">
 
-<a href="navigation.html">back</a><br>
-
-
-<div>
-  <input type="text" id="search" placeholder = &#128269Search
-         class="wd-search-bar wd-font"></input>
-  <br/>
-</div>
-
-<p class = "wd-gear" >
-  <a href="explore-settings.html">&#x2699</a><br>
-</p>
+<body>
 
 
-<div class = "wd-highlighted-hyperlink wd-font">
-  For You
-</div>
-<div class = "wd-non-highlighted-hyperlink wd-font">
-  Trending
-</div>
-<div class = "wd-non-highlighted-hyperlink wd-font">
-  COVID-19
-</div>
-<div class = "wd-non-highlighted-hyperlink wd-font">
-  News
-</div>
-<div class = "wd-non-highlighted-hyperlink wd-font">
-  Sports
-</div>
-<div class="wd-float-done"></div>
+<div class="container">
+  <h2>Hiding and showing responsive content</h2>
+  <div class="d-block d-sm-none fa-2x">XS</div>
+  <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+  <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+  <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+  <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+  <div class="d-none d-xxl-block fa-2x">XXL</div>
+
+
+  <div class="row">
+
+
+    <div class="col-2 fg-color-white mt-2">
+
+
+      <div class="list-group d-none d-xl-block">
+
+          <a href="./navigation.html"
+             class="fab fa-twitter fa-1x list-group-item list-group-item-action" aria-current="true">
+          </a>
+
+
+          <a href="./home.html"
+             class="fas fa-house-user list-group-item list-group-item-action" aria-current="true">
+            Home
+          </a>
+
+
+          <a href="./explore.html.html"
+             class="fas fa-hashtag list-group-item list-group-item-action active" aria-current="true">
+            Explore
+          </a>
+
+
+          <a href="./notifications.html"
+             class="fas fa-bell list-group-item list-group-item-action" aria-current="true">
+            Notifications
+          </a>
 
 
 
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-type">
-    Trending in Sports </div>
-  <div class = "wd-suggested-name">
-    MLB Lockout </div>
-  <div class = "wd-suggested-tuits">
-    55.2k Tuits </div>
-</div>
-
-<br><br>
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-type">
-    Trending in News </div>
-  <div class = "wd-suggested-name">
-    Russia-Ukraine Conflict </div>
-  <div class = "wd-suggested-tuits">
-    104.5k Tuits </div>
-</div>
-
-
-<br><br>
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-type">
-    Trending in United States </div>
-  <div class = "wd-suggested-name">
-    Super Bowl </div>
-  <div class = "wd-suggested-tuits">
-    24.7k Tuits </div>
-</div>
+          <a href="./messages.html"
+             class="fas fa-envelope list-group-item list-group-item-action" aria-current="true">
+            Messages
+          </a>
 
 
 
 
-<br><br>
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-author">
-    The New York Times </div>
-  <img class = "wd-image" src="nyt.png">
-  <div class = "wd-suggested-name">
-    The New York Times Buys Wordle </div>
-</div>
-
-<br><br>
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-type">
-    COVID-19 LIVE</div>
-  <img class = "wd-image" src="covid.png">
-  <div class = "wd-suggested-name">
-    COVID-19: News and updates for Boston </div>
-</div>
+          <a href="./bookmarks.html"
+             class="fas fa-bookmark list-group-item list-group-item-action" aria-current="true">
+            Bookmarks
+          </a>
 
 
-<br><br>
 
-<div>
-  <div class = "wd-hr-suggested wd-suggested-author">
-    Bloomberg Opinion </div>
-  <img class = "wd-image" src="bloomberg.png">
-  <div class = "wd-suggested-name">
-    Why the Billionaire Space Race is a Good Thing </div>
-</div>
+          <a href="./lists.html"
+             class="fas fa-list list-group-item list-group-item-action" aria-current="true">
+            Lists
+          </a>
+
+
+
+          <a href="./profile.html"
+             class="fas fa-user list-group-item list-group-item-action" aria-current="true">
+            Profile
+          </a>
 
 
 
 
+          <a
+              class="list-group-item list-group-item-action wd-padding-left-more-icon" aria-current="true">
+            <span class="fa-stack fa-1x">
+              <i class="fas fa-circle fa-stack-1x"></i>
+              <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+            </span>
+            More
+          </a>
 
 
-<br><br>
-
-<div>
-  <div class = "wd-hr-suggested wd-suggested-type">
-    Trending in Entertainment </div>
-  <div class = "wd-suggested-name">
-    Futurama Season 8 </div>
-  <div class = "wd-suggested-tuits">
-    22.1k Tuits </div>
-</div>
-
-
-
-
+          <button class="btn btn-primary mt-1 wd-width-100">
+            Tuit
+          </button>
 
 
 
-</body>
-</html>
+        </div>
+
+      <div class="list-group d-xl-none">
+
+        <a href="./navigation.html"
+           class="fab fa-twitter fa-1x list-group-item list-group-item-action" aria-current="true">
+        </a>
+
+
+        <a href="./home.html"
+           class="fas fa-house-user list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+        <a href="./explore.html.html"
+           class="fas fa-hashtag list-group-item list-group-item-action active" aria-current="true">
+        </a>
+
+
+
+        <a href="./notifications.html"
+           class="fas fa-bell list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+
+
+        <a href="./messages.html"
+           class="fas fa-envelope list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+
+
+
+        <a href="./bookmarks.html"
+           class="fas fa-bookmark list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+
+
+        <a href="./lists.html"
+           class="fas fa-list list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+
+
+        <a href="./profile.html"
+           class="fas fa-user list-group-item list-group-item-action" aria-current="true">
+
+        </a>
+
+
+
+
+        <a
+            class="list-group-item list-group-item-action wd-padding-left-more-icon" aria-current="true">
+            <span class="fa-stack fa-1x">
+              <i class="fas fa-circle fa-stack-1x"></i>
+              <i class="fas fa-ellipsis-h fa-stack-1x fa-inverse"></i>
+            </span>
+
+        </a>
+
+
+        <button class="btn btn-primary mt-1">
+          Tuit
+        </button>
+
+
+
+      </div>
+
+
+    </div>
+
+    <div class="col-7 mt-2">
+        <div>
+          <input type="text" id="search" placeholder = &#128269Search
+                 class="wd-search-bar wd-font"></input>
+          <br/>
+        </div>
+
+
+      <p class = "wd-gear" >
+        <a href="explore-settings.html">&#x2699</a><br>
+      </p>
+
+
+
+
+
+      <ul class="nav nav-tabs wd-middle navbar-expand">
+        <li class="nav-item d-flex">
+          <a class="nav-link active text-nowrap" href="./for-you.html">For you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./trending.html">Trending</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./news.html">News</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./sports.html">Sports</a>
+        </li>
+        <li class="nav-item d-none d-md-block">
+          <a class="nav-link" href="./entertainment.html">Entertainment</a>
+        </li>
+      </ul>
+
+
+
+
+
+
+      <img class = "wd-width-100" src="spaceX-Starship.jpg">
+      <div class="wd-middle-big-image-caption">SpaceX's Starship</div>
+
+
+
+      <ul class="list-group wd-width-100 wd-center-lineup">
+        <li class="list-group-item wd-width-100">
+
+          <div class="wd-article-type">
+            Web Development
+            <img class="wd-article-image" src="react.png">
+          </div>
+
+          <p>
+            <strong> ReactJS &#10003 </strong> - 2h <br>
+            <strong> React.js is a component based front end library that makes
+            it very easy to build Single Page Applications or SPAs </strong>
+          </p>
+
+        </li>
+      </ul>
+
+      <ul class="list-group wd-width-100 wd-center-lineup">
+        <li class="list-group-item wd-width-100">
+
+          <div>
+            <img class="wd-article-image" src="javascript.png">
+          </div>
+
+          <p>
+            <strong> JavaScript &#10003 </strong> - 2h <br>
+            <strong> JavaScript is programming language that can run on
+              browsers as well as desktops</strong>
+          </p>
+
+          <p class = wd-article-type> 123K Tweets </p>
+
+        </li>
+      </ul>
+
+      <ul class="list-group wd-width-100 wd-center-lineup">
+        <li class="list-group-item wd-width-100">
+
+          <div class="wd-article-type">
+            Web Development
+            <img class="wd-article-image" src="jquery.png">
+          </div>
+
+          <p>
+            <strong> jQuery </strong>
+          </p>
+
+          <div class="wd-article-type">
+            123K Tweets
+          </div>
+
+        </li>
+      </ul>
+
+      <ul class="list-group wd-width-100 wd-center-lineup">
+        <li class="list-group-item wd-width-100">
+
+          <div class="wd-article-type">
+            Web Development
+            <img class="wd-article-image" src="nodejs.jpg">
+          </div>
+
+          <p>
+            <strong> NodeJS &#10003 </strong> - 2h <br>
+          </p>
+
+
+          <div class="wd-article-type">
+            123K Tweets
+          </div>
+
+        </li>
+      </ul>
+
+
+
+
+    </div>
+
+    <div class="col-3 mt-2 d-none d-lg-block">
+
+
+      <ul class="list-group wd-width-100">
+        <li class="list-group-item wd-width-100">Who to follow</li>
+
+        <li class="list-group-item wd-account-info">
+          <img class = "wd-account-image" src="java.png">
+          Java &#10003
+
+          <button class="btn btn-primary wd-account-follow">
+            Follow
+          </button>
+
+          <div>
+            @Java
+          </div>
+        </li>
+
+        <li class="list-group-item wd-account-info">
+          <img class = "wd-account-image" src="relativity-space.jpg">
+          Relativity Space &#10003
+
+          <button class="btn btn-primary wd-account-follow">
+            Follow
+          </button>
+
+          <div>
+            @relativityspace
+          </div>
+        </li>
+
+        <li class="list-group-item wd-account-info">
+          <img class = "wd-account-image" src="virgin-galactic.svg">
+          Virgin Galactic &#10003
+
+          <button class="btn btn-primary wd-account-follow">
+            Follow
+          </button>
+
+          <div>
+            @virgingalactic
+          </div>
+        </li>
+
+        <li class="list-group-item wd-account-info">
+          <img class = "wd-account-image" src="nasa.png">
+          NASA &#10003
+
+          <button class="btn btn-primary wd-account-follow">
+            Follow
+          </button>
+
+          <div>
+            @NASA
+          </div>
+        </li>
+
+        <li class="list-group-item wd-account-info">
+          <img class = "wd-account-image" src="tesla.jpg">
+          Tesla &#10003
+
+          <button class="btn btn-primary wd-account-follow">
+            Follow
+          </button>
+
+          <div>
+            @Tesla
+          </div>
+        </li>
+      </ul>
+
+
+
+    </div>
+
+  </div>
+
