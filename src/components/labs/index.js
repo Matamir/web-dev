@@ -1,21 +1,19 @@
 import React from "react";
 import Classes from "./classes";
-
 import {Link} from "react-router-dom";
 import Styles from "./styles";
 import ConditionalOutput from "./conditional-output/index";
 import TodoItem from "./todo/TodoItem";
 import TodoList from "./todo/TodoList";
 
+import ReduxExamples from "./redux-examples";
+
 
 const Labs = () => {
   return(
       <>
-        <h1>Labs</h1>
-        <ConditionalOutput/>
-        <Styles/>
-        <Classes/>
-        <TodoList/>
+        <h1>Lab 7</h1>
+        <ReduxExamples/>
 
         <Link to="/hello">
           Hello
@@ -23,6 +21,7 @@ const Labs = () => {
         <Link to="/tuiter">
           Tuiter
         </Link>
+
 
       </>
   )
