@@ -31,7 +31,7 @@ const WhatsHappening = () => {
           </button>
         </div>
       </>
-  );
-}
+  )
+};
 export default WhatsHappening;
 

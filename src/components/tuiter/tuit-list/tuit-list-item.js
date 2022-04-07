@@ -80,9 +80,6 @@ const TuitListItem = (
 
           {tuit.tuit}
 
-          <div>
-            {embed}
-          </div>
 
 
           <div className={"wd-article-stats"}>
